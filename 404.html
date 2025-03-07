@@ -48,32 +48,13 @@
       background-repeat: no-repeat;
       background-position: center;
     }
-    #loading-text {
-      position: fixed;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      font-family: 'Playfair Display', serif;
-      font-size: 2.5em;
-      color: #333;
-      text-align: center;
-      padding: 20px;
-      background: rgba(255, 255, 255, 0.8);
-      border-radius: 10px;
-      z-index: 1;
-      animation: fadeInOut 2s infinite ease-in-out;
-    }
-    @keyframes fadeInOut {
-      0% { opacity: 0; }
-      50% { opacity: 1; }
-      100% { opacity: 0; }
-    }
+    
   </style>
 </head>
 
 <body>
   <div id="gif-background"></div>
-  <div id="loading-text">Welcome to Symbiosis School Jabalpur - Loading...</div>
+  
 
   <script>
     window.addEventListener('load', function (ev) {
@@ -90,12 +71,11 @@
             let appRunner = await app.initializeEngine();
             await appRunner.runApp();
             document.getElementById('gif-background').style.display = 'none';
-            document.getElementById('loading-text').style.display = 'none';
+            
           }
         });
       }).catch(error => {
         console.error('Failed to load main.dart.js:', error);
-        document.getElementById('loading-text').textContent = 'Error loading the website. Please try again later.';
       });
     }
 
