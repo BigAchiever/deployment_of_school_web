@@ -10,7 +10,6 @@ import 'package:symbiosis_school_jabalpur/pages/learn_more/learn_more2.dart';
 import 'package:symbiosis_school_jabalpur/pages/notifications/notification_mobile_page.dart';
 import 'package:symbiosis_school_jabalpur/pages/social_media/social_media.dart';
 import 'package:symbiosis_school_jabalpur/routes/getpagebuilder.dart';
-
 import '../layout/appbar_and_layout.dart';
 
 // Scaffold with persistent AppBar
@@ -21,6 +20,8 @@ class ScaffoldWithNavBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    print(
+        'ScaffoldWithNavBar: Building with currentIndex=${navigationShell.currentIndex}');
     return Scaffold(
       body: AppbarWidget(
         selectedIndex: navigationShell.currentIndex,
@@ -34,8 +35,13 @@ class ScaffoldWithNavBar extends StatelessWidget {
 // GoRouter configuration
 final router = GoRouter(
   initialLocation: '/',
-  errorBuilder: (context, state) => const NotFoundPage(),
+  debugLogDiagnostics: true, // Enable go_router debug logging
+  errorBuilder: (context, state) {
+    print('GoRouter: Error route triggered: ${state.uri}');
+    return const NotFoundPage();
+  },
   redirect: (context, state) {
+    print('GoRouter: Redirecting for path: ${state.uri}');
     if (state.uri.toString().startsWith('/')) {
       return null; // Let go_router handle valid paths
     }
@@ -44,6 +50,7 @@ final router = GoRouter(
   routes: [
     StatefulShellRoute.indexedStack(
       builder: (context, state, navigationShell) {
+        print('StatefulShellRoute: Building with path: ${state.uri}');
         return ScaffoldWithNavBar(navigationShell: navigationShell);
       },
       branches: [
@@ -52,8 +59,10 @@ final router = GoRouter(
             GoRoute(
               name: 'home',
               path: '/',
-              pageBuilder: (context, state) =>
-                  getPageBuilder(const HomePageContent()),
+              pageBuilder: (context, state) {
+                print('GoRoute: Building HomePageContent');
+                return getPageBuilder(const HomePageContent());
+              },
             ),
           ],
         ),
@@ -62,8 +71,10 @@ final router = GoRouter(
             GoRoute(
               name: 'about',
               path: '/about-us',
-              pageBuilder: (context, state) =>
-                  getPageBuilder(const AboutPage()),
+              pageBuilder: (context, state) {
+                print('GoRoute: Building AboutPage');
+                return getPageBuilder(const AboutPage());
+              },
             ),
           ],
         ),
@@ -72,8 +83,10 @@ final router = GoRouter(
             GoRoute(
               name: 'social',
               path: '/social-media',
-              pageBuilder: (context, state) =>
-                  getPageBuilder(const SocialMediaPage()),
+              pageBuilder: (context, state) {
+                print('GoRoute: Building SocialMediaPage');
+                return getPageBuilder(const SocialMediaPage());
+              },
             ),
           ],
         ),
@@ -82,8 +95,10 @@ final router = GoRouter(
             GoRoute(
               name: 'contact',
               path: '/contact-us',
-              pageBuilder: (context, state) =>
-                  getPageBuilder(const ContactPage()),
+              pageBuilder: (context, state) {
+                print('GoRoute: Building ContactPage');
+                return getPageBuilder(const ContactPage());
+              },
             ),
           ],
         ),
@@ -92,8 +107,10 @@ final router = GoRouter(
             GoRoute(
               name: 'learnmore1',
               path: '/learn-more-symbiosis-higher-secondary-school',
-              pageBuilder: (context, state) =>
-                  getPageBuilder(const LearnMorePage()),
+              pageBuilder: (context, state) {
+                print('GoRoute: Building LearnMorePage');
+                return getPageBuilder(const LearnMorePage());
+              },
             ),
           ],
         ),
@@ -102,23 +119,28 @@ final router = GoRouter(
             GoRoute(
               name: 'learnmore2',
               path: '/learn-more-symbiosis-senior-secondary-school',
-              pageBuilder: (context, state) =>
-                  getPageBuilder(const LearnMorePage2()),
+              pageBuilder: (context, state) {
+                print('GoRoute: Building LearnMorePage2');
+                return getPageBuilder(const LearnMorePage2());
+              },
             ),
           ],
         ),
-        StatefulShellBranch(routes: [
-          GoRoute(
-            name: 'notifications',
-            path: '/notifications',
-            pageBuilder: (context, state) {
-              final notices = state.extra as List<NotificationModel>?;
-              return MaterialPage(
-                child: NotificationsPage(notices: notices),
-              );
-            },
-          ),
-        ])
+        StatefulShellBranch(
+          routes: [
+            GoRoute(
+              name: 'notifications',
+              path: '/notifications',
+              pageBuilder: (context, state) {
+                print('GoRoute: Building NotificationsPage');
+                final notices = state.extra as List<NotificationModel>?;
+                return MaterialPage(
+                  child: NotificationsPage(notices: notices),
+                );
+              },
+            ),
+          ],
+        ),
       ],
     ),
   ],

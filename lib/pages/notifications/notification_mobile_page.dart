@@ -16,7 +16,7 @@ class NotificationsPage extends StatelessWidget {
 
     return Scaffold(
       body: Container(
-        color: Colors.yellow,
+        color: Colors.yellow[50], // Softer yellow for a cleaner look
         padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 24.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
@@ -112,7 +112,7 @@ class NotificationsPage extends StatelessWidget {
                                         );
                                       }
                                     },
-                                    child: Text(
+                                    child: const Text(
                                       "Click Here",
                                       style: TextStyle(
                                         fontSize: 14,

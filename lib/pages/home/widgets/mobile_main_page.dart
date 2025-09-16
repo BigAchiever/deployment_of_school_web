@@ -78,7 +78,7 @@ class MobileMainPage extends StatelessWidget {
                 Transform.rotate(
                   angle: -0.1,
                   child: const CustomCard(
-                    imageUrl: "assets/image/dads.png",
+                    imageUrl: "assets/image/one.jpeg",
                     title:
                         'Building better bonds between dads and their kids, happily ever after',
                     borderRadius: 20.0,
@@ -97,7 +97,7 @@ class MobileMainPage extends StatelessWidget {
                 Transform.rotate(
                   angle: 0.1,
                   child: const CustomCard(
-                    imageUrl: "assets/image/dads.png",
+                    imageUrl: "assets/image/five.jpeg",
                     title: 'Building better bonds between dads and their kids',
                     borderRadius: 20.0,
                     padding: 12.0,
@@ -115,7 +115,7 @@ class MobileMainPage extends StatelessWidget {
                 Transform.rotate(
                   angle: -0.1,
                   child: const CustomCard(
-                    imageUrl: "assets/image/dads.png",
+                    imageUrl: "assets/image/six.jpeg",
                     title: 'Building better bonds between dads and their kids',
                     borderRadius: 20.0,
                     padding: 12.0,

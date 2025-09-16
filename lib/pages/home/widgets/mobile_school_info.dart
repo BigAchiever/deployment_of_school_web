@@ -64,7 +64,7 @@ class MobileSchoolInfo extends StatelessWidget {
               Column(
                 children: [
                   buildSchoolImageWithTriangularShape(
-                    'assets/image/dads.png',
+                    'assets/image/highersec.jpeg',
                     "Symbiosis Higher\nSecondary School",
                     "Adhartal, jabalpur",
                     context,
@@ -131,7 +131,7 @@ class MobileSchoolInfo extends StatelessWidget {
               Column(
                 children: [
                   buildSchoolImageWithTriangularShape(
-                    'assets/image/dads.png',
+                    'assets/image/sen2.jpeg',
                     "Symbiosis Senior\nSecondary School",
                     "Maharajpur, Jabalpur",
                     context,

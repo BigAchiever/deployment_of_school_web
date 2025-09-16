@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:symbiosis_school_jabalpur/routes/router.dart';
-import 'package:url_strategy/url_strategy.dart';
 
 void main() {
   runApp(const MyApp());
-  setPathUrlStrategy();
 }
 
 class MyApp extends StatelessWidget {

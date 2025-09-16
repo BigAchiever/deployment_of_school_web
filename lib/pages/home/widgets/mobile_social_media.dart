@@ -58,7 +58,7 @@ class _MobileSocialMediaHomeState extends State<MobileSocialMediaHome> {
           const SizedBox(
             height: 30,
           ),
-          InstagramPosts(
+          const InstagramPosts(
             limit: 3,
             showOnlyImages: true,
           ),

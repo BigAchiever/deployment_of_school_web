@@ -1,5 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6041ce82-8d7a-40d1-b12f-d21b356c601f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/pages/home/widgets/mobile_main_page.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/pages/home/widgets/notice.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/pages/notifications/notification_mobile_page.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/pages/notifications/notification_model.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/widgets/launch_phone.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config_subset" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config_subset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/7.5/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/7.5/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/7.5/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/7.5/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/7.5/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/7.5/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/web/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/assets/NOTICES" beforeDir="false" afterPath="$PROJECT_DIR$/build/web/assets/NOTICES" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/assets/fonts/MaterialIcons-Regular.otf" beforeDir="false" afterPath="$PROJECT_DIR$/build/web/assets/fonts/MaterialIcons-Regular.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/flutter_bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/web/flutter_bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/flutter_service_worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/web/flutter_service_worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/main.dart.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/web/main.dart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/web/sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/layout/appbar_and_layout.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/layout/appbar_and_layout.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/layout/footer/footer.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/layout/footer/footer.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/layout/footer/mobile_footer.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/layout/footer/mobile_footer.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pages/contact/widgets/card.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/contact/widgets/card.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pages/contact/widgets/text_buttons.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/contact/widgets/text_buttons.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pages/error_page/error_404.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/error_page/error_404.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pages/home/home_ui.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/home/home_ui.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pages/home/mobile_home.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/home/mobile_home.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pages/home/widgets/image_text_overlay.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/home/widgets/image_text_overlay.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pages/home/widgets/mobile_sections.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/home/widgets/mobile_sections.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pages/home/widgets/mobile_social_media.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/home/widgets/mobile_social_media.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pages/home/widgets/sections_button.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/home/widgets/sections_button.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pages/home/widgets/sections_tab.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/home/widgets/sections_tab.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pages/home/widgets/social_media_card.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/home/widgets/social_media_card.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pages/home/widgets/social_media_tab.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/home/widgets/social_media_tab.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pages/home/widgets/text_slider.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/home/widgets/text_slider.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pages/learn_more/mobile_learn_more.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/learn_more/mobile_learn_more.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pages/social_media/mobile_social.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/social_media/mobile_social.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pages/social_media/social_media.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/social_media/social_media.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/routes/router.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/routes/router.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/API/fetch.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils/API/fetch.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/nav_utils.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils/nav_utils.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/theme_config/app_color_extension.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils/theme_config/app_color_extension.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/widgets/contact_details.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/contact_details.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/widgets/dialog.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/dialog.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schooll_website.iml" beforeDir="false" afterPath="$PROJECT_DIR$/schooll_website.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/sitemap.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="main.dart" pinned="false" current-in-tab="true">
@@ -13,24 +84,59 @@
       </file>
     </leaf>
   </component>
-  <component name="ToolWindowManager">
-    <editor active="true" />
-    <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-    </layout>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="31V3RWGWG8XByXDM3vdV13lYwbg" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-    </navigator>
+    <navigator currentView="ProjectPane" proportions="" version="1" />
     <panes>
       <pane id="ProjectPane">
         <option name="show-excluded-files" value="false" />
       </pane>
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="dart.analysis.tool.window.force.activate" value="true" />
-    <property name="show.migrate.to.gradle.popup" value="false" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Flutter.main.dart.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Flutter projects/Symbiosis-School-Website",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6041ce82-8d7a-40d1-b12f-d21b356c601f" name="Changes" comment="" />
+      <created>1755595404982</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1755595404982</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+    </layout>
   </component>
 </project>
