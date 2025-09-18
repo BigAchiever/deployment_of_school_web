@@ -103556,14 +103556,14 @@ r=A.jw(B.i,1)
 return A.aQ(q,A.Qz(A.co(12),A.kC(this.a.c,q,q,B.k5,1/0,1/0)),B.m,q,q,new A.bJ(q,q,r,s,q,q,B.H),q,p,q,q,q,q,b.b/1.2)},
 $S:233}
 A.DE.prototype={
-a9(){return new A.a0f(A.b(["assets/image/gallery1.jpg","assets/image/gallery2.jpg","assets/image/gallery3.jpg","assets/image/gallery4.jpg","assets/image/gallery5.jpg","assets/image/gallery6.jpg"],t.s))}}
+a9(){return new A.a0f(A.b(["assets/image/top3.jpeg","assets/image/top2.jpeg","assets/image/three.jpeg","assets/image/award2.jpeg","assets/image/two.jpeg","assets/image/award.jpg"],t.s))}}
 A.a0f.prototype={
 I(a){var s,r,q=null,p=A.ad(a,q,t.w).w.a,o=p.b,n=p.a,m=A.hM("assets/image/puzzle.svg",B.y,B.aF,100,100),l=A.ao("We're Hit",q,q,q,q,q,q,q,A.aw(q,q,B.i,q,q,q,q,q,"Magic Brush",q,q,n/30,q,q,q,q,q,!0,q,q,q,q,q,q,q,q),q,q,q,q),k=A.ao("We hate to blow our own trumpets - so listen to\nwhat others say about us instead!",q,q,q,q,q,q,q,A.aw(q,q,B.i,q,q,q,q,q,q,q,q,n/80,q,q,q,q,q,!0,q,q,q,q,q,q,q,q),B.L,q,q,q)
 if(n>1000)s=0.25
 else s=n>600?0.4:0.8
 s=A.aNg(!0,B.hV,B.aN,B.pK,!0,!1,o/2,new A.aBU(this),!0,s)
 r=$.a7
-return A.aQ(q,A.aG(A.b([m,B.a8,l,k,B.d9,A.aT(new A.wn(s,q,new A.aBV(this),new A.Q4(new A.bj(new A.aa(r,t.wC),t.Fe)),6,q),q,n*0.9),B.cm,A.aSa(B.i,B.at,100,6,12,this.d,12)],t.p),B.q,B.D,B.l),B.m,q,q,B.EQ,q,o*0.8,q,q,q,q,n)}}
+return A.aQ(q,A.aG(A.b([m,B.a8,l,k,B.d9,A.aT(new A.wn(s,q,new A.aBV(this),new A.Q4(new A.bj(new A.aa(r,t.wC),t.Fe)),6,q),q,n*0.9),B.cm,A.aSa(B.i,B.at,100,6,12,this.d,12)],t.p),B.q,B.D,B.l),B.m,q,q,B.EQ,q,o*1.1,q,q,q,q,n)}}
 A.aBV.prototype={
 $3(a,b,c){return new A.n3(this.a.e[b],null)},
 $S:660}
